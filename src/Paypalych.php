@@ -28,7 +28,7 @@ class Paypalych {
         if($method == "POST") { curl_setopt($ch, CURLOPT_POST, true); } else { curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET"); }
         curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($params));
         curl_setopt($ch, CURLOPT_USERAGENT, "composer require tellarion/paypalych V-Agent");
-        curl_setopt($ch, CURLOPT_HTTPHEADER, array("Content-Type: application/json", "Authorization: Bearer ".$this->apiToken));
+        curl_setopt($ch, CURLOPT_HTTPHEADER, array("Authorization: Bearer ".$this->apiToken));
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         $result = curl_exec($ch);
         curl_close($ch);
