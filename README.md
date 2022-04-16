@@ -1,4 +1,4 @@
 # Payeer
-API & Methods: https://payeerru.docs.apiary.io/
+API & Methods: https://paypalych.com/reference/api
 
-`composer require tellarion/payeer`
+`composer require tellarion/paypalych`
