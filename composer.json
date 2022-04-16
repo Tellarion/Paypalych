@@ -1,0 +1,21 @@
+{
+    "name": "tellarion/paypalych",
+    "description": "https://paypalych.com/reference/api",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksandr Danilov",
+            "email": "im@tellarion.dev"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^5.4 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tellarion\\Api\\": "src/"
+        }
+    }
+}
